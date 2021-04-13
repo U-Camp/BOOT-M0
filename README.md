@@ -580,6 +580,4 @@ El elemento <BODY /> es donde se renderiza la aplicación web en sí, contiene t
 HTML es la tecnología base detrás de las aplicaciones web, por lo que ahondaremos en algunas de sus particularidades, etiquetas de elementos que soporta y sus características durante la impartición del taller. Para construir aplicaciones web se necesita un ambiente de desarrollo, el cual deben tener instaladas ciertas herramientas que hacen posible la ejecución de código mientras el desarrollador lo va escribiendo, de tal manera que el mismo observe los resultados y funcionalidad que genera su código mientras lo trabaja.
 
 
-# Momento Kahoot
-Accede al link y contesta la siguientes preguntas  para repasar lo que has visto hasta el momento: https://kahoot.it/challenge/01315960?challenge-id=374fc545-ef91-4e6d-af41-dbf39e717c23_1616003663892 PIN del juego: 01315960
 
