@@ -1,4 +1,4 @@
-![Banner](assets/banner.png)
+![Banner](imagenes/banner.png)
 
 # U CLASS 0: Fundamentos de Programación
 
