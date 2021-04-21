@@ -1,6 +1,6 @@
 ![Banner](imagenes/banner.png)
 
-# U CLASS 0: Fundamentos de Programación
+# Guía Módulo 0: Fundamentos de Programación
 
 En esta sesión, comenzaremos sobre los fundamentos en sobre desarrollo de Software, lenguajes de programación y algoritmia básica.
 
