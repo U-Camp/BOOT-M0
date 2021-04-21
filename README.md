@@ -463,7 +463,7 @@ Los pasos de éste proceso se pueden repetir tantas veces sea necesario dependie
 
 Como se puede observar, todos estos conceptos son universales al desarrollo de software, por lo que se aplican y adaptan a cualquier lenguaje de programación y se usan para construir software de calidad, mantenible y ordenado. Durante el desarrollo del curso se irá ahondando más en estos conceptos teóricos a través de la práctica, para ello se usará el lenguaje de programación JavaScript62 , los paradigmas de programación antes descritos, aplicando los patrones de diseño que se requieran en cada actividad a realizar.
 
-Puedes descargar la siguiente [INFOGRAFÍA 1 - CICLO DE VIDA](https://github.com/U-Camp/ws-sesion0/blob/master/infografias/Semana_0_Infograf%C3%ADa_1_C.pdf)
+Puedes descargar la siguiente [INFOGRAFÍA 1 - CICLO DE VIDA](https://github.com/U-Camp/BOOT-M0/blob/main/infografias/Semana_0_Infograf%C3%ADa_1_C.pdf)
 
 # Full Stack Development
 
@@ -529,9 +529,9 @@ Es la base de datos en sí, donde se almacena toda la información del sistema e
 
 **Actualidad - Futuro:** W3C genera estándares para la web semántica99 , lo que permite y permitirá que las máquinas se entiendan entre sí, de tal manera que los metadatos describan una aplicación web, por lo que un cliente automatizado podrá consumir otro cliente, entendiéndolo desde su contexto.
 
-Puedes descargar la siguiente [Infografía WWW 1era parte](https://github.com/U-Camp/ws-sesion0/blob/master/infografias/Semana_0_Infograf%C3%ADa_2_C.pdf)
+Puedes descargar la siguiente [Infografía WWW 1era parte](https://github.com/U-Camp/BOOT-M0/blob/main/infografias/Semana_0_Infograf%C3%ADa_2_C.pdf)
 
-Puedes descargar la siguiente [Infografía WWW 2da parte¨](https://github.com/U-Camp/ws-sesion0/blob/master/infografias/Semana_0_Infograf%C3%ADa_3_C.pdf)
+Puedes descargar la siguiente [Infografía WWW 2da parte¨](https://github.com/U-Camp/BOOT-M0/blob/main/infografias/Semana_0_Infograf%C3%ADa_3_C.pdf)
 
 # Fundamentos de HTML
 
