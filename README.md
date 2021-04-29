@@ -33,7 +33,7 @@ En la actualidad, los lenguajes de programación son parte inherente de todas la
 
 Para llegar al punto en el que ya vemos el resultado de la ejecución del software, es necesario seguir una serie de pasos que nos permitirán llegar a la resolución de un problema determinado por medio del dispositivo, a esta serie de pasos se le llama algoritmo.
 
-La palabra algoritmo, aunque es un término matemático, es muy usado en el mundo de la tecnología y nos remite nuevamente a lo que son los lenguajes de programación, ya que al final un programa es un algoritmo; el término se acuñó en honor al matemático árabe Al Khwarizmi8 .
+La palabra algoritmo, aunque es un término matemático, es muy usado en el mundo de la tecnología y nos remite nuevamente a lo que son los lenguajes de programación, ya que al final un programa es un algoritmo; el término se acuñó en honor al matemático árabe Al Khwarizmi.
 
 Un algoritmo, en cuanto a la programación y el desarrollo de software se refiere, puede expresarse en diferentes formas, de las cuales las 4 principales son:
 
