@@ -1,10 +1,10 @@
 ![Banner](imagenes/banner.png)
 
-# Guía Módulo 0: Fundamentos de Programación
+# M0S0: Fundamentos de Programación y Algoritmia
 
 En esta sesión, comenzaremos sobre los fundamentos en sobre desarrollo de Software, lenguajes de programación y algoritmia básica.
 
-# Tabla de contenidos
+# ÍNDICE
 
 - [Conceptos Generales del Desarrollo de Software](https://github.com/U-Camp/BOOT-M0/blob/main/README.md#conceptos-generales-del-desarrollo-de-software)
     - [Lenguajes de Programación](https://github.com/U-Camp/BOOT-M0/blob/main/README.md#lenguajes-de-programaci%C3%B3n)
@@ -532,52 +532,3 @@ Es la base de datos en sí, donde se almacena toda la información del sistema e
 Puedes descargar la siguiente [Infografía WWW 1era parte](https://github.com/U-Camp/BOOT-M0/blob/main/infografias/Semana_0_Infograf%C3%ADa_2_C.pdf)
 
 Puedes descargar la siguiente [Infografía WWW 2da parte¨](https://github.com/U-Camp/BOOT-M0/blob/main/infografias/Semana_0_Infograf%C3%ADa_3_C.pdf)
-
-# Fundamentos de HTML
-
-HTML es el esquema que define cómo se ordenan los elementos en una página web. No es un lenguaje de diseño de interfaces ni un lenguaje de programación, es un Lenguaje de Marcado de Hipertextos (HyperText Markup Language) que se usa para crear y determinar el contenido de una página web, pero debido a su diseño, no puede definir su funcionalidad, representa visualmente la página web tal cual.
-
-Hipertexto se refiere a enlaces que conectan una página web con otra, ya sea dentro del mismo sitio o entre sitios totalmente ajenos uno de otro.
-
-HTML usa "markup" o marcado para anotar textos, imágenes, y otros contenidos que se muestran en el navegador web. El lenguaje de marcado HTML incluye "elementos" especiales tales como `<head>`, `<title>`, `<body>`, `<header>`, `<article>`, `<section>`, `<p>`, `<div>`, `<span>`, `<img>` y muchos otros más.100 
-
-Una estructura básica de un archivo HTML se podría codificar de la siguiente manera:
-
-```html
-<!DOCTYPE html>
-
-<html lang="en">
-
-<head> 101
-
-102
-
-Markdown - Daring Fireball. De https://daringfireball.net/projects/markdown/ Metadatos, definición y características - PowerData. De https://www.powerdata.es/metadatos
-
-<meta charset="UTF-8">
-
-<title>Título Ejemplo en HEAD</title>
-
-</head>
-
-<body>
-
-<div>Cuerpo en BODY</div>
-
-</body>
-
-</html>
-```
-
-El doctype describe el tipo de documento, debido a que los navegadores web modernos soportan el renderizado de varios tipos de lenguaje de marcado (Como XML o Markdown101 ), hay que especificarle al mismo el tipo de documento, lo que le indica al navegador que va a renderizar un documento HTML.
-
-La etiqueta de elemento `<HTML />` es la raíz del documento, dentro de ésta se crea toda la jerarquía de etiquetas de elementos necesarias, comúnmente está compuesta solamente por dos elementos: `<HEAD />` y `<BODY />`.
-
-El elemento <HEAD /> es el encabezado principal de HTML, se usa para insertar metadatos 102 a una página web, ponerle un título o cargar recursos externos, como archivos de CSS o Javascript, los cuales son tecnologías distintas a HTML pero que son usadas para describir la apariencia o presentación de una página web (CSS) o para definir su funcionalidad (Javascript).
-
-El elemento `<BODY />` es donde se renderiza la aplicación web en sí, contiene todo el código HTML (etiquetas de elementos) que definen la estructura de la aplicación.
-
-HTML es la tecnología base detrás de las aplicaciones web, por lo que ahondaremos en algunas de sus particularidades, etiquetas de elementos que soporta y sus características durante la impartición del taller. Para construir aplicaciones web se necesita un ambiente de desarrollo, el cual deben tener instaladas ciertas herramientas que hacen posible la ejecución de código mientras el desarrollador lo va escribiendo, de tal manera que el mismo observe los resultados y funcionalidad que genera su código mientras lo trabaja.
-
-
-
