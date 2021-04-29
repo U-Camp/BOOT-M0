@@ -9,8 +9,6 @@ En esta sesión, comenzaremos sobre los fundamentos en sobre desarrollo de Softw
 - [Conceptos Generales del Desarrollo de Software](https://github.com/U-Camp/BOOT-M0/blob/main/README.md#conceptos-generales-del-desarrollo-de-software)
     - [Lenguajes de Programación](https://github.com/U-Camp/BOOT-M0/blob/main/README.md#lenguajes-de-programaci%C3%B3n)
     - [Paradigmas de Programación](https://github.com/U-Camp/BOOT-M0/blob/main/README.md#paradigmas-de-programaci%C3%B3n)
-    - [Principios básicos de Programación Orientada a Objetos](https://github.com/U-Camp/BOOT-M0/blob/main/README.md#principios-b%C3%A1sicos-de-la-programaci%C3%B3n-orientada-a-objetos)
-    - [Patrones de Diseño](https://github.com/U-Camp/BOOT-M0/blob/main/README.md#patrones-de-dise%C3%B1o)
     - [Full Stack Development](https://github.com/U-Camp/BOOT-M0/blob/main/README.md#full-stack-development)
 - [Breve Historia de la World Wide Web](https://github.com/U-Camp/BOOT-M0/blob/main/README.md#breve-historia-de-la-world-wide-web)
 
