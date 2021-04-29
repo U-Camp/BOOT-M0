@@ -6,14 +6,14 @@ En esta sesión, comenzaremos sobre los fundamentos en sobre desarrollo de Softw
 
 # Tabla de contenidos
 
-- [Conceptos Generales del Desarrollo de Software](https://github.com/U-Camp/ws-sesion0#conceptos-generales-del-desarrollo-de-software)
-    - [Lenguajes de Programación](https://github.com/U-Camp/ws-sesion0#lenguajes-de-programaci%C3%B3n)
-    - [Paradigmas de Programación](https://github.com/U-Camp/ws-sesion0#paradigmas-de-programaci%C3%B3n)
-    - [Principios básicos de Programación Orientada a Objetos](https://github.com/U-Camp/ws-sesion0/blob/master/README.md#principios-b%C3%A1sicos-de-la-programaci%C3%B3n-orientada-a-objetos)
-    - [Patrones de Diseño](https://github.com/U-Camp/ws-sesion0/blob/master/README.md#patrones-de-dise%C3%B1o)
-    - [Full Stack Development](https://github.com/U-Camp/ws-sesion0/blob/master/README.md#full-stack-development)
-- [Breve Historia de la World Wide Web](https://github.com/U-Camp/ws-sesion0/blob/master/README.md#breve-historia-de-la-world-wide-web)
-- [Fundamentos de HTML](https://github.com/U-Camp/ws-sesion0/blob/master/README.md#fundamentos-de-html)
+- [Conceptos Generales del Desarrollo de Software](https://github.com/U-Camp/BOOT-M0/blob/main/README.md#conceptos-generales-del-desarrollo-de-software)
+    - [Lenguajes de Programación](https://github.com/U-Camp/BOOT-M0/blob/main/README.md#lenguajes-de-programaci%C3%B3n)
+    - [Paradigmas de Programación](https://github.com/U-Camp/BOOT-M0/blob/main/README.md#paradigmas-de-programaci%C3%B3n)
+    - [Principios básicos de Programación Orientada a Objetos](https://github.com/U-Camp/BOOT-M0/blob/main/README.md#principios-b%C3%A1sicos-de-la-programaci%C3%B3n-orientada-a-objetos)
+    - [Patrones de Diseño](https://github.com/U-Camp/BOOT-M0/blob/main/README.md#patrones-de-dise%C3%B1o)
+    - [Full Stack Development](https://github.com/U-Camp/BOOT-M0/blob/main/README.md#full-stack-development)
+- [Breve Historia de la World Wide Web](https://github.com/U-Camp/BOOT-M0/blob/main/README.md#breve-historia-de-la-world-wide-web)
+- [Fundamentos de HTML](https://github.com/U-Camp/BOOT-M0/blob/main/README.md#fundamentos-de-html)
 
 # Conceptos Generales del Desarrollo de Software
 
@@ -249,6 +249,7 @@ Este concepto de programación es el más usado actualmente para desarrollar cua
 # Principios básicos de la Programación Orientada a Objetos
 
 Estas características otorgan a los objetos de propiedades que guardan datos así como de métodos que realizan acciones y procesan esos datos, pero para poder hacer uso de las mismas, es necesario definir esas propiedades y comportamientos en un concepto llamado Clase20 , básicamente una clase es una plantilla de código que sirve para instanciar objetos, esto es crear objetos en memoria, la cual debe seguir los principios básicos de la programación orientada a objetos21 , los cuales son los siguientes:
+
 - **Encapsulamiento**: Este principio indica que hay que mantener el estado de un objeto privado, esto quiere decir que sólo el objeto pueda modificar características internas, en el ejemplo del gato el usuario puede alimentar al gato, pero no puede decidir qué tan hambriento se siente; así mismo, en la POO un objeto no puede comunicarse o alcanzar métodos o propiedades privados de otro objeto.
 
 
@@ -538,7 +539,7 @@ HTML es el esquema que define cómo se ordenan los elementos en una página web.
 
 Hipertexto se refiere a enlaces que conectan una página web con otra, ya sea dentro del mismo sitio o entre sitios totalmente ajenos uno de otro.
 
-HTML usa "markup" o marcado para anotar textos, imágenes, y otros contenidos que se muestran en el navegador web. El lenguaje de marcado HTML incluye "elementos" especiales tales como <head>, <title>, <body>, <header>, <article>, <section>, <p>, <div>, <span>, <img> y muchos otros más.100 
+HTML usa "markup" o marcado para anotar textos, imágenes, y otros contenidos que se muestran en el navegador web. El lenguaje de marcado HTML incluye "elementos" especiales tales como `<head>`, `<title>`, `<body>`, `<header>`, `<article>`, `<section>`, `<p>`, `<div>`, `<span>`, `<img>` y muchos otros más.100 
 
 Una estructura básica de un archivo HTML se podría codificar de la siguiente manera:
 
@@ -570,11 +571,11 @@ Markdown - Daring Fireball. De https://daringfireball.net/projects/markdown/ Met
 
 El doctype describe el tipo de documento, debido a que los navegadores web modernos soportan el renderizado de varios tipos de lenguaje de marcado (Como XML o Markdown101 ), hay que especificarle al mismo el tipo de documento, lo que le indica al navegador que va a renderizar un documento HTML.
 
-La etiqueta de elemento <HTML /> es la raíz del documento, dentro de ésta se crea toda la jerarquía de etiquetas de elementos necesarias, comúnmente está compuesta solamente por dos elementos: <HEAD /> y <BODY />.
+La etiqueta de elemento `<HTML />` es la raíz del documento, dentro de ésta se crea toda la jerarquía de etiquetas de elementos necesarias, comúnmente está compuesta solamente por dos elementos: `<HEAD />` y `<BODY />`.
 
 El elemento <HEAD /> es el encabezado principal de HTML, se usa para insertar metadatos 102 a una página web, ponerle un título o cargar recursos externos, como archivos de CSS o Javascript, los cuales son tecnologías distintas a HTML pero que son usadas para describir la apariencia o presentación de una página web (CSS) o para definir su funcionalidad (Javascript).
 
-El elemento <BODY /> es donde se renderiza la aplicación web en sí, contiene todo el código HTML (etiquetas de elementos) que definen la estructura de la aplicación.
+El elemento `<BODY />` es donde se renderiza la aplicación web en sí, contiene todo el código HTML (etiquetas de elementos) que definen la estructura de la aplicación.
 
 HTML es la tecnología base detrás de las aplicaciones web, por lo que ahondaremos en algunas de sus particularidades, etiquetas de elementos que soporta y sus características durante la impartición del taller. Para construir aplicaciones web se necesita un ambiente de desarrollo, el cual deben tener instaladas ciertas herramientas que hacen posible la ejecución de código mientras el desarrollador lo va escribiendo, de tal manera que el mismo observe los resultados y funcionalidad que genera su código mientras lo trabaja.
 
