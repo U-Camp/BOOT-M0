@@ -15,7 +15,6 @@ En esta sesión, comenzaremos sobre los fundamentos en sobre desarrollo de Softw
 - [Breve Historia de la World Wide Web](https://github.com/U-Camp/ws-sesion0/blob/master/README.md#breve-historia-de-la-world-wide-web)
 - [Fundamentos de HTML](https://github.com/U-Camp/ws-sesion0/blob/master/README.md#fundamentos-de-html)
 
-
 # Conceptos Generales del Desarrollo de Software
 
 ## Lenguajes de Programación
@@ -250,8 +249,8 @@ Este concepto de programación es el más usado actualmente para desarrollar cua
 # Principios básicos de la Programación Orientada a Objetos
 
 Estas características otorgan a los objetos de propiedades que guardan datos así como de métodos que realizan acciones y procesan esos datos, pero para poder hacer uso de las mismas, es necesario definir esas propiedades y comportamientos en un concepto llamado Clase20 , básicamente una clase es una plantilla de código que sirve para instanciar objetos, esto es crear objetos en memoria, la cual debe seguir los principios básicos de la programación orientada a objetos21 , los cuales son los siguientes:
-
 - **Encapsulamiento**: Este principio indica que hay que mantener el estado de un objeto privado, esto quiere decir que sólo el objeto pueda modificar características internas, en el ejemplo del gato el usuario puede alimentar al gato, pero no puede decidir qué tan hambriento se siente; así mismo, en la POO un objeto no puede comunicarse o alcanzar métodos o propiedades privados de otro objeto.
+
 
 - **Abstracción**: Al aplicar el encapsulamiento, sólo unos cuántos métodos quedan accesibles externamente, lo que genera una interfaz de comunicación, esto quiere decir que un objeto no tiene porqué saber cómo ésta construido otro objeto o cómo funciona por dentro, sólo tiene que saber cómo comunicarse con él; tal cual como se interactúa con los objetos reales, muchas veces no se sabe cómo están construidos o cómo funcionan, el objeto con el que se interactúa expone una interfaz con la que se pueden realizar acciones en él. Si un usuario acaricia un gato y el gato como reacción empieza a ronronear, el usuario no tiene porqué saber cómo es que el gato ronronea, sólo interactúa a través del pelo y la piel del gato.
 
