@@ -13,7 +13,6 @@ En esta sesión, comenzaremos sobre los fundamentos en sobre desarrollo de Softw
     - [Patrones de Diseño](https://github.com/U-Camp/BOOT-M0/blob/main/README.md#patrones-de-dise%C3%B1o)
     - [Full Stack Development](https://github.com/U-Camp/BOOT-M0/blob/main/README.md#full-stack-development)
 - [Breve Historia de la World Wide Web](https://github.com/U-Camp/BOOT-M0/blob/main/README.md#breve-historia-de-la-world-wide-web)
-- [Fundamentos de HTML](https://github.com/U-Camp/BOOT-M0/blob/main/README.md#fundamentos-de-html)
 
 # Conceptos Generales del Desarrollo de Software
 
