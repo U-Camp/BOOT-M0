@@ -2,7 +2,7 @@
 
 # M0S0: Fundamentos de Programación y Algoritmia
 
-En esta sesión, comenzaremos sobre los fundamentos en sobre desarrollo de Software, lenguajes de programación y algoritmia básica.
+En esta sesión, comenzaremos sobre los fundamentos sobre desarrollo de Software, lenguajes de programación y algoritmia básica.
 
 # ÍNDICE
 
@@ -22,9 +22,7 @@ Los lenguajes de programación proveen y habilitan una estructura y un medio ent
 
 Estas instrucciones, al traducirse a lenguaje máquina o código ejecutable se transforman en software (conjunto de programas), el cual le describe a un hardware determinado, como puede realizar una o varias tareas (procesos) a partir de una entrada determinada (argumento) para producir una salida.
 
-Los lenguajes de programación son viejos, tan viejos como el siglo IX, época en la que un grupo de eruditos árabes conocidos como los "Banu Musa " escribieron un estudio donde "describían
-
-Un instrumento que sonaba por sí solo", y en el cual explicaban la forma en la que se podría construir un autómata que tocara la flauta siguiendo un algoritmo.
+Los lenguajes de programación son viejos, tan viejos como el siglo IX, época en la que un grupo de eruditos árabes conocidos como los "Banu Musa " escribieron un estudio donde "describían un instrumento que sonaba por sí solo", y en el cual explicaban la forma en la que se podría construir un autómata que tocara la flauta siguiendo un algoritmo.
 
 En la actualidad, los lenguajes de programación son parte inherente de todas las computadoras o dispositivos electrónicos, así como de todo lo que vemos a través de cualquier pantalla. 
 
@@ -86,13 +84,13 @@ función validar_lámpara {
 }
 
 ```
-**4. Programa**: Como ya lo comentamos, un programa es una serie de sentencias y métodos que se escriben siguiendo la sintaxis, reglas y estructura de un lenguaje de programación, lo cual permite que un dispositivo electrónico realice procesos determinados en base a una entrada, produciendo una salida.
+**4. Programa**: Como ya lo comentamos, un programa es una serie de sentencias y métodos que se escriben siguiendo la sintaxis, reglas y estructura de un lenguaje de programación, lo cual permite que un dispositivo electrónico realice procesos determinados con base a una entrada, produciendo una salida.
 
-Si un algoritmo define como se solucionará un problema aún haría falta implementar esa solución, para eso los lenguajes de programación ofrecen sus palabras clave y sentencias, pero el código se tiene que acomodar de manera uniforme y estructurada, de tal manera que a la acción de escribir y estructurar el código de otra manera es lo que se llama paradigma de programación.
+Si un algoritmo define cómo se solucionará un problema aún haría falta implementar esa solución, para eso los lenguajes de programación ofrecen sus palabras clave y sentencias, pero el código se tiene que acomodar de manera uniforme y estructurada, de tal manera que a la acción de escribir y estructurar el código de otra manera es lo que se llama paradigma de programación.
 
 # Paradigmas de programación
 
-Así como existen diferentes tipos de lenguajes de programación también hay distintos paradigmas de programación los cuales, como ya se mencionó, definen como se escribe y estructura el código; algunos paradigmas que se usarán durante el curso son los siguientes:
+Así como existen diferentes tipos de lenguajes de programación también hay distintos paradigmas de programación los cuales, como ya se mencionó, definen cómo se escribe y estructura el código; algunos paradigmas que se usarán durante el curso son los siguientes:
 
 **Programación estructurada**: Está basado en el uso de rutinas que realizan una tarea, cada una de las cuales puede tener 3 estructuras de control de flujo:
 
