@@ -247,45 +247,47 @@ El desarrollo de soluciones web tiene dos componentes principales: el frontend y
 
 Un programador que puede configurar y desarrollar sistemas interactivos tanto en front como en back, sabe integrar ambos elementos conociendo como se comunican entre sí por medio de una API REST, así como guardar y acceder a información correctamente estructurada en una base de datos, se le llama Desarrollador Full Stack.
 
-La arquitectura de una aplicación web está dada principalmente por el modelo cliente-servidor69 , en el cual un cliente (explorador web por medio del frontend) realiza peticiones de recursos a un servidor (backend) por medio de una API (API REST que es un protocolo de comunicación que ambas partes entienden) la cual devuelve un resultado que es presentado al usuario final.
+La arquitectura de una aplicación web está dada principalmente por el modelo cliente-servidor, en el cual un cliente (explorador web por medio del frontend) realiza peticiones de recursos a un servidor (backend) por medio de una API (API REST que es un protocolo de comunicación que ambas partes entienden) la cual devuelve un resultado que es presentado al usuario final.
 
-El término Full Stack es aplicado a un conjunto de tecnologías específica (stack). Durante este curso se aplicará el siguiente stack de tecnologías:
+El término Full Stack es aplicado a un conjunto de tecnologías específicas (stack). Durante este curso se aplicará el siguiente stack de tecnologías:
 
-Ejecución del lado del cliente, normalmente un explorador web (chrome, firefox, edge, safari) el cual ya tiene implementado un motor de ejecución de código 70 (engine), el cual puede interpretar las siguientes tecnologías:
+Ejecución del lado del cliente, normalmente un explorador web (Chrome, Firefox, Edge, Safari) el cual ya tiene implementado un motor de ejecución de código (Engine), el cual puede interpretar las siguientes tecnologías:
 
-Es un esquema estático que define como se acomodan los elementos en una página web. Puede ser modificado usando javascript, volviendo cualquier aplicación web interactiva.
+Es un esquema estático que define como se acomodan los elementos en una página web. Puede ser modificado usando JavaScript, volviendo cualquier aplicación web interactiva.
 
-Las hojas de estilo en cascada (Cascading Style Sheets) son un esquema utilizado para describir la presentación de los elementos en una página web, si HTML define como se acomodarán estos elementos dentro de la aplicación, CSS define cuál será su estilo y presentación al usuario final. Como ya se mencionó, JS es un lenguaje de programación ligero, interpretado, basado en prototipos y orientado a objetos. Provee los métodos necesarios que hacen la web interactiva.
+Las hojas de estilo en cascada (Cascading Style Sheets) son un esquema utilizado para describir la presentación de los elementos en una página web, si HTML define cómo se acomodarán estos elementos dentro de la aplicación, CSS define cuál será su estilo y presentación al usuario final. Como ya se mencionó, JS es un lenguaje de programación ligero, interpretado, basado en prototipos y orientado a objetos. Provee los métodos necesarios que hacen la web interactiva.
 
-Ejecución del lado del servidor, en el que un proceso está escuchando peticiones en sus endpoints (recursos) definidos en la API (Application Programming Interface), que expone esos recursos a la web. Así mismo es el encargado principal del proceso de los datos y de generar la información principal de un sistema con base en las reglas de negocio del problema que se quiere solucionar. La implementación de los procesos decisivos y más importantes de un sistema se realiza en el backend. Por ejemplo, las transacciones seguras de un proceso de pago en un e-commerce75 , deben realizarse del lado del servidor, normalmente estos procesos manejan tokens de acceso y claves, que si se filtran al frontend pueden implicar un riesgo de seguridad. Las tecnologías de backend que se usan son las siguientes:
+Ejecución del lado del servidor, en el que un proceso está escuchando peticiones en sus endpoints (recursos) definidos en la API (Application Programming Interface), que expone esos recursos a la web. Así mismo es el encargado principal del proceso de los datos y de generar la información principal de un sistema con base en las reglas de negocio del problema que se quiere solucionar. La implementación de los procesos decisivos y más importantes de un sistema se realiza en el backend. Por ejemplo, las transacciones seguras de un proceso de pago en un e-commerce, deben realizarse del lado del servidor, normalmente estos procesos manejan tokens de acceso y claves, que si se filtran al frontend pueden implicar un riesgo de seguridad. Las tecnologías de backend que se usan son las siguientes:
 
 Es un motor de ejecución de código Javascript del lado del servidor, esto quiere decir que permite programar sistemas con el mismo tipo de código con el que se programa el frontend, disminuyendo la curva de aprendizaje y haciendo el desarrollo más ágil. NodeJS extiende la funcionalidad de Javascript proveyendo mecanismos de acceso que no se tienen en el frontend, como el acceso al sistema de archivos o a bases de datos.
 
-Es un servidor web desarrollado en Javascript, que se integra como un módulo en NodeJS y que permite la definición de endpoints, rutas y middlewares 78 de tal manera que se pueda crear una API Rest rápidamente.
+Es un servidor web desarrollado en Javascript, que se integra como un módulo en NodeJS y que permite la definición de endpoints, rutas y middlewares de tal manera que se pueda crear una API Rest rápidamente.
 
 Es un ORM (Object-Relational Mapping) que permite el mapeo de modelos de un esquema de MongoDB. Por ejemplo, un modelo de una entidad usuario, que es una representación esquematizada de todos los datos almacenados en MongoDB de un documento de un usuario. Así mismo da acceso a la base de datos y maneja las conexiones a la misma.
 
-Es la base de datos en sí, donde se almacena toda la información del sistema en forma de un esquema de documentos. 1969: El Departamento de Defensa de los Estados Unidos desarrolla una red que conectaba varias universidades californianas, llamada ARPANET.
+Es la base de datos en sí, donde se almacena toda la información del sistema en forma de un esquema de documentos. 
 
 # Breve Historia de la World Wide Web
 
-**1969 - 1991:** ARPANET se fue extendiendo en los centros académicos y militares de todo el mundo adoptando TCP/IP 82 de paso. En un principio la comunicación entre ordenadores era muy básica, sólo se intercambiaban mensajes o se ofrecía un acceso directo a los archivos compartidos en la red.
+**1969: El Departamento de Defensa de los Estados Unidos desarrolla una red que conectaba varias universidades californianas, llamada ARPANET.
 
-**1989:** Tim Berners-Lee83 , junto con el equipo con el que trabajaba en el CERN, inventó y desarrolló el protocolo de comunicación HTTP84 , el sistema de direcciones por medio de URLs85  y el HTML, lo cual permitía crear páginas con texto e imágenes que se enlazaban entre sí.
+**1969 - 1991:** ARPANET se fue extendiendo en los centros académicos y militares de todo el mundo adoptando TCP/IP de paso. En un principio la comunicación entre ordenadores era muy básica, sólo se intercambiaban mensajes o se ofrecía un acceso directo a los archivos compartidos en la red.
 
-**1991:** ARPANET se vuelve pública. Tim-Bernes Lee y su equipo crearon el primer navegador web llamado "WorldWideWeb86 " que sólo funcionaba en computadoras NeXT y renderizaba solamente texto. (Primera página web de la historia: https://www.w3.org/History/19921103hypertext/hypertext/WWW/TheProject.html).
+**1989:** Tim Berners-Lee, junto con el equipo con el que trabajaba en el CERN, inventó y desarrolló el protocolo de comunicación HTTP, el sistema de direcciones por medio de URLs y el HTML, lo cual permitía crear páginas con texto e imágenes que se enlazaban entre sí.
 
-**1993:** Se crea Mosaic88 , el primer explorador web gráfico multiplataforma (Disponible para Mac, Windows y otros) al ser multiplataforma fue muy popular en los círculos académicos. Fue desarrollado en el NCSA (National Center for Supercomputing Applications) por Marc Andreessen y Eric Bina.
+**1991:** ARPANET se vuelve pública. Tim-Bernes Lee y su equipo crearon el primer navegador web llamado "WorldWideWeb" que sólo funcionaba en computadoras NeXT y renderizaba solamente texto. (Primera página web de la historia: https://www.w3.org/History/19921103hypertext/hypertext/WWW/TheProject.html).
 
-**1993:** Se crea el primer buscador de la historia AliWeb89 , el cual era un índice o lista recopilada a mano de varios sitios web.
+**1993:** Se crea Mosaic, el primer explorador web gráfico multiplataforma (Disponible para Mac, Windows y otros) al ser multiplataforma fue muy popular en los círculos académicos. Fue desarrollado en el NCSA (National Center for Supercomputing Applications) por Marc Andreessen y Eric Bina.
 
-**1994:** Se lanza al público Netscape Navigator90 , el primer navegador web de uso comercial, también desarrollado por Marc Andreeseen. El acceso a internet en esos momentos era muy limitado, lento y caro.
+**1993:** Se crea el primer buscador de la historia AliWeb, el cual era un índice o lista recopilada a mano de varios sitios web.
 
-**1994:** Se crea el W3C 91 (World Wide Web Consortium) el cual genera recomendaciones y estándares que fomentan el crecimiento de la web. Dirigido por Tim Berners-Lee hasta la actualidad.
+**1994:** Se lanza al público Netscape Navigator, el primer navegador web de uso comercial, también desarrollado por Marc Andreeseen. El acceso a internet en esos momentos era muy limitado, lento y caro.
 
-**1995:** Microsoft lanza Internet Explorer92 , como parte de su sistema operativo Windows 95, lo que permitió que se convirtiera en el explorador dominante.
+**1994:** Se crea el W3C (World Wide Web Consortium) el cual genera recomendaciones y estándares que fomentan el crecimiento de la web. Dirigido por Tim Berners-Lee hasta la actualidad.
 
-**1995:** Netscape desarrolla y lanza Javascript, que permitía acceder al HTML de una página web por medio del DOM 93 para volverla más dinámica.
+**1995:** Microsoft lanza Internet Explorer, como parte de su sistema operativo Windows 95, lo que permitió que se convirtiera en el explorador dominante.
+
+**1995:** Netscape desarrolla y lanza JavaScript, que permitía acceder al HTML de una página web por medio del DOM para volverla más dinámica.
 
 **1996:** Se crea CSS, que permite estilizar una página web y cambiar su estilo visual y diseño.
 
@@ -293,17 +295,17 @@ Es la base de datos en sí, donde se almacena toda la información del sistema e
 
 **1998 - 2001:** Se adaptan los lenguajes de programación para ser usados del lado del servidor (Perl, Python y Ruby) o se crean nuevos lenguajes como PHP y haciendo uso de las tecnologías existentes (HTML, CSS, Flash y Javascript) la web se vuelve más interactiva y atractiva para los usuarios. El internet es más accesible y barato.
 
-**2002 - Actualidad:** Se desarrolla de manera orgánica la Web 2.094 , la cual es una evolución de las primeras páginas web. Boom de las páginas web y la burbuja de las .com explota. Surge la web social, páginas como MySpace, Facebook, YouTube se vuelven imprescindibles. El internet es ampliamente usado y asequible para la mayoría.
+**2002 - Actualidad:** Se desarrolla de manera orgánica la Web 2.0, la cual es una evolución de las primeras páginas web. Boom de las páginas web y la burbuja de las .com explota. Surge la web social, páginas como MySpace, Facebook, YouTube se vuelven imprescindibles. El internet es ampliamente usado y asequible para la mayoría.
 
-**2005:** Google lanza el paper de su algoritmo MapReduce95 , el cual permitía desarrollar un ranking de las páginas buscadas de forma distribuida, permitiendo su implementación open source, la cual se usa para desarrollar redes distribuidas, base de la computación en la nube actual.
+**2005:** Google lanza el paper de su algoritmo MapReduce, el cual permitía desarrollar un ranking de las páginas buscadas de forma distribuida, permitiendo su implementación open source, la cual se usa para desarrollar redes distribuidas, base de la computación en la nube actual.
 
-**2009:** Se publica MongoDB, un motor de base de datos NoSQL 96 que surge como alternativa a las bases de datos relacionales97 , con el cual se intenta flexibilizar el guardado y manejo de grandes cantidades de información.
+**2009:** Se publica MongoDB, un motor de base de datos NoSQL que surge como alternativa a las bases de datos relacionales, con el cual se intenta flexibilizar el guardado y manejo de grandes cantidades de información.
 
 **2010:** Nace NodeJS, motor de tiempo de ejecución de javascript del lado del servidor.
 
-**2013:** Se desarrolla y publica la primera versión de ReactJS98 , librería de código abierto para crear interfaces de usuario en Javascript, creado por un equipo de desarrollo de Facebook.
+**2013:** Se desarrolla y publica la primera versión de ReactJS, librería de código abierto para crear interfaces de usuario en JavaScript, creado por un equipo de desarrollo de Facebook.
 
-**Actualidad - Futuro:** W3C genera estándares para la web semántica99 , lo que permite y permitirá que las máquinas se entiendan entre sí, de tal manera que los metadatos describan una aplicación web, por lo que un cliente automatizado podrá consumir otro cliente, entendiéndolo desde su contexto.
+**Actualidad - Futuro:** W3C genera estándares para la web semántica, lo que permite y permitirá que las máquinas se entiendan entre sí, de tal manera que los metadatos describan una aplicación web, por lo que un cliente automatizado podrá consumir otro cliente, entendiéndolo desde su contexto.
 
 Puedes descargar la siguiente [Infografía WWW 1era parte](https://github.com/U-Camp/BOOT-M0/blob/main/infografias/Semana_0_Infograf%C3%ADa_2_C.pdf)
 
