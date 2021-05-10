@@ -2,7 +2,7 @@
 
 # M0S0: Fundamentos de Programación y Algoritmia
 
-En esta sesión, comenzaremos sobre los fundamentos sobre desarrollo de Software, lenguajes de programación y algoritmia básica.
+Hola te doy la bienvenida, en esta sesión, comenzaremos sobre los fundamentos sobre desarrollo de Software, lenguajes de programación y algoritmia básica.
 
 # ÍNDICE
 
@@ -307,6 +307,12 @@ Es la base de datos en sí, donde se almacena toda la información del sistema e
 
 **Actualidad - Futuro:** W3C genera estándares para la web semántica, lo que permite y permitirá que las máquinas se entiendan entre sí, de tal manera que los metadatos describan una aplicación web, por lo que un cliente automatizado podrá consumir otro cliente, entendiéndolo desde su contexto.
 
-Puedes descargar la siguiente [Infografía WWW 1era parte](https://github.com/U-Camp/BOOT-M0/blob/main/infografias/Semana_0_Infograf%C3%ADa_2_C.pdf)
+>#### A continuación, te invito a consultar y descargar dos inforggrafías que resumen un poco la historia de la WWW.
 
-Puedes descargar la siguiente [Infografía WWW 2da parte¨](https://github.com/U-Camp/BOOT-M0/blob/main/infografias/Semana_0_Infograf%C3%ADa_3_C.pdf)
+Puedes descargar la primera parte de la infografía en el siguiente enlace [Infografía WWW 1era parte](https://github.com/U-Camp/BOOT-M0/blob/main/infografias/Semana_0_Infograf%C3%ADa_2_C.pdf)
+
+Puedes descargar la segunda parte de la infografía en el siguiente enlace [Infografía WWW 2da parte¨](https://github.com/U-Camp/BOOT-M0/blob/main/infografias/Semana_0_Infograf%C3%ADa_3_C.pdf)
+
+>#### Con esta información has finalizado el módulo 0, te invito a continuar con el Módulo 1 Semana 1. Recuerda para aclarar cualquier duda puedes escribirle a tus coaches desde la pestaña publicaciones en Microsoft Teams.
+>:smiley:
+
