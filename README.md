@@ -243,13 +243,16 @@ Este concepto de programación es el más usado actualmente para desarrollar cua
 
 # Full Stack Development
 
-El desarrollo de soluciones web tiene dos componentes principales: el frontend y el backend, cada uno de los cuales está a cargo de realizar distintos procesos en la información que fluye a través de ellos, el frontend  es el encargado de renderizar todos los datos y la información ya procesada por el sistema y permite capturar los datos que introduzca el usuario o le permite interactuar con la interfaz de usuario (UI) proveyendo una experiencia de usuario (UX) intuitiva y fácil de usar, todo esto por medio de un explorador web, pero debido a que el explorador web no tiene acceso al sistema de archivos del sistema operativo en el que se está ejecutando no puede acceder directamente a bases de datos, se hace necesario el uso de un backend, desde donde el sistema pueda generar nuevos archivos de información (por ejemplo un PDF o un Excel que el usuario quiera descargar) o comunicarse con una base de datos  para procesar la información que se genera.
+El desarrollo de soluciones web tiene dos componentes principales: el frontend y el backend, cada uno de los cuales está a cargo de realizar distintos procesos en la información que fluye a través de ellos; el ***frontend***  es el encargado de renderizar todos los datos y la información ya procesada por el sistema y permite capturar los datos que introduzca el usuario o le permite interactuar con la interfaz de usuario (UI) proveyendo una experiencia de usuario (UX) intuitiva y fácil de usar, todo esto por medio de un explorador web, pero debido a que el explorador web no tiene acceso al sistema de archivos del sistema operativo en el que se está ejecutando no puede acceder directamente a bases de datos, se hace necesario el uso de un ***backend***, desde donde el sistema pueda generar nuevos archivos de información (por ejemplo un PDF o un Excel que el usuario quiera descargar) o comunicarse con una base de datos para procesar la información que se genera.
 
-Un programador que puede configurar y desarrollar sistemas interactivos tanto en front como en back, sabe integrar ambos elementos conociendo como se comunican entre sí por medio de una API REST, así como guardar y acceder a información correctamente estructurada en una base de datos, se le llama Desarrollador Full Stack.
+Un programador es la persona que puede configurar y desarrollar sistemas interactivos tanto en front como en back, sabe integrar ambos elementos conociendo como se comunican entre sí por medio de una API REST, así como guardar y acceder a información correctamente estructurada en una base de datos, y a este se le llama ***Desarrollador Full Stack***.
 
 La arquitectura de una aplicación web está dada principalmente por el modelo cliente-servidor, en el cual un cliente (explorador web por medio del frontend) realiza peticiones de recursos a un servidor (backend) por medio de una API (API REST que es un protocolo de comunicación que ambas partes entienden) la cual devuelve un resultado que es presentado al usuario final.
 
-El término Full Stack es aplicado a un conjunto de tecnologías específicas (stack). Durante este curso se aplicará el siguiente stack de tecnologías:
+El término ***Full Stack*** es aplicado a un conjunto de tecnologías específicas (stack). Durante este curso se aplicará el siguiente stack de tecnologías:
+
+
+
 
 Ejecución del lado del cliente, normalmente un explorador web (Chrome, Firefox, Edge, Safari) el cual ya tiene implementado un motor de ejecución de código (Engine), el cual puede interpretar las siguientes tecnologías:
 
@@ -264,6 +267,9 @@ Es un motor de ejecución de código Javascript del lado del servidor, esto quie
 Es un servidor web desarrollado en Javascript, que se integra como un módulo en NodeJS y que permite la definición de endpoints, rutas y middlewares de tal manera que se pueda crear una API Rest rápidamente.
 
 Es un ORM (Object-Relational Mapping) que permite el mapeo de modelos de un esquema de MongoDB. Por ejemplo, un modelo de una entidad usuario, que es una representación esquematizada de todos los datos almacenados en MongoDB de un documento de un usuario. Así mismo da acceso a la base de datos y maneja las conexiones a la misma.
+
+
+
 
 Es la base de datos en sí, donde se almacena toda la información del sistema en forma de un esquema de documentos. 
 
