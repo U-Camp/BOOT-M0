@@ -2,7 +2,7 @@
 
 # M0S0: Fundamentos de Programación y Algoritmia
 
-Hola te doy la bienvenida, en esta sesión, comenzaremos sobre los fundamentos sobre desarrollo de Software, lenguajes de programación y algoritmia básica.
+>#### Hola te doy la bienvenida, es un gusto tenerte aquí; en esta sesión, comenzaremos sobre los fundamentos sobre desarrollo de Software, lenguajes de programación y algoritmia básica.
 
 # ÍNDICE
 
