@@ -250,7 +250,6 @@ El término ***Full Stack*** es aplicado a un conjunto de tecnologías específi
 
 
 
-<<<<<<< HEAD
 # El concepto de Fullstack
 
 El término Full Stack es aplicado a utilizar un conjunto de tecnologías específicas (stack). 
@@ -274,35 +273,14 @@ Existen dos áreas separadas:
     Por ejemplo, las transacciones seguras de un proceso de pago en un e-commerce, deben realizarse del lado del servidor, normalmente estos procesos manejan tokens de acceso y claves, que si se filtran al frontend pueden implicar un riesgo de seguridad.
 
     Las tecnologías de backend que se usan son las siguientes:
-=======
-
-Ejecución del lado del cliente, normalmente un explorador web (Chrome, Firefox, Edge, Safari) el cual ya tiene implementado un motor de ejecución de código (Engine), el cual puede interpretar las siguientes tecnologías:
-
-Es un esquema estático que define como se acomodan los elementos en una página web. Puede ser modificado usando JavaScript, volviendo cualquier aplicación web interactiva.
-
-Las hojas de estilo en cascada (Cascading Style Sheets) son un esquema utilizado para describir la presentación de los elementos en una página web, si HTML define cómo se acomodarán estos elementos dentro de la aplicación, CSS define cuál será su estilo y presentación al usuario final. Como ya se mencionó, JS es un lenguaje de programación ligero, interpretado, basado en prototipos y orientado a objetos. Provee los métodos necesarios que hacen la web interactiva.
-
-Ejecución del lado del servidor, en el que un proceso está escuchando peticiones en sus endpoints (recursos) definidos en la API (Application Programming Interface), que expone esos recursos a la web. Así mismo es el encargado principal del proceso de los datos y de generar la información principal de un sistema con base en las reglas de negocio del problema que se quiere solucionar. La implementación de los procesos decisivos y más importantes de un sistema se realiza en el backend. Por ejemplo, las transacciones seguras de un proceso de pago en un e-commerce, deben realizarse del lado del servidor, normalmente estos procesos manejan tokens de acceso y claves, que si se filtran al frontend pueden implicar un riesgo de seguridad. Las tecnologías de backend que se usan son las siguientes:
->>>>>>> a0f16b94d356cc758e2b61fd181c43cd78a22591
 
     - **NodeJS.** Es un motor de ejecución de código Javascript del lado del servidor, esto quiere decir que permite programar sistemas con el mismo tipo de código con el que se programa el frontend, disminuyendo la curva de aprendizaje y haciendo el desarrollo más ágil. NodeJS extiende la funcionalidad de Javascript proveyendo mecanismos de acceso que no se tienen en el frontend, como el acceso al sistema de archivos o a bases de datos.
 
-<<<<<<< HEAD
     - **Express.** Es un servidor web desarrollado en Javascript, que se integra como un módulo en NodeJS y que permite la definición de endpoints, rutas y middlewares de tal manera que se pueda crear una API Rest rápidamente.
-=======
-Es un servidor web desarrollado en Javascript, que se integra como un módulo en NodeJS y que permite la definición de endpoints, rutas y middlewares de tal manera que se pueda crear una API Rest rápidamente.
->>>>>>> a0f16b94d356cc758e2b61fd181c43cd78a22591
 
     - **Mongoose.** Es un ORM (Object-Relational Mapping) que permite el mapeo de modelos de un esquema de MongoDB. Por ejemplo, un modelo de una entidad usuario, que es una representación esquematizada de todos los datos almacenados en MongoDB de un documento de un usuario. Así mismo da acceso a la base de datos y maneja las conexiones a la misma.
 
-<<<<<<< HEAD
     - **MongoDB.** Es la base de datos en sí, donde se almacena toda la información del sistema en forma de un esquema de documentos. 1969: El Departamento de Defensa de los Estados Unidos desarrolla una red que conectaba varias universidades californianas, llamada ARPANET.
-=======
-
-
-
-Es la base de datos en sí, donde se almacena toda la información del sistema en forma de un esquema de documentos. 
->>>>>>> a0f16b94d356cc758e2b61fd181c43cd78a22591
 
 # Breve Historia de la World Wide Web
 
