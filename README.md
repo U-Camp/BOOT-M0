@@ -167,9 +167,6 @@ console.log(i);
 
     - **Que los métodos sean funciones puras**: esto quiere decir que sean deterministas (el resultado será siempre el mismo para un mismo valor de entrada) y que no tengan ningún efecto secundario sobre los datos ajenos a la función (que no modifiquen variables globales o locales).
 
-    -- **Si es necesario, se usan funciones de orden superior**: esto es que una función reciba una o más funciones y a su vez devuelva otra función, este concepto es bastante útil para cuando se requiere reusar métodos o usar callbacks.
-
-    - Finalmente, de la mano con el punto anterior, la , que indica que el resultado de un método sirve como entrada para otro, lo que permite encadenar funciones.
 
 ```javascript
 // Esta función cumple con la inmutabilidad
@@ -251,23 +248,38 @@ Un programador que puede configurar y desarrollar sistemas interactivos tanto en
 
 La arquitectura de una aplicación web está dada principalmente por el modelo cliente-servidor69 , en el cual un cliente (explorador web por medio del frontend) realiza peticiones de recursos a un servidor (backend) por medio de una API (API REST que es un protocolo de comunicación que ambas partes entienden) la cual devuelve un resultado que es presentado al usuario final.
 
-El término Full Stack es aplicado a un conjunto de tecnologías específica (stack). Durante este curso se aplicará el siguiente stack de tecnologías:
 
-Ejecución del lado del cliente, normalmente un explorador web (chrome, firefox, edge, safari) el cual ya tiene implementado un motor de ejecución de código 70 (engine), el cual puede interpretar las siguientes tecnologías:
+# El concepto de Fullstack
 
-Es un esquema estático que define como se acomodan los elementos en una página web. Puede ser modificado usando javascript, volviendo cualquier aplicación web interactiva.
+El término Full Stack es aplicado a utilizar un conjunto de tecnologías específicas (stack). 
 
-Las hojas de estilo en cascada (Cascading Style Sheets) son un esquema utilizado para describir la presentación de los elementos en una página web, si HTML define como se acomodarán estos elementos dentro de la aplicación, CSS define cuál será su estilo y presentación al usuario final. Como ya se mencionó, JS es un lenguaje de programación ligero, interpretado, basado en prototipos y orientado a objetos. Provee los métodos necesarios que hacen la web interactiva.
+Existen dos áreas separadas:
 
-Ejecución del lado del servidor, en el que un proceso está escuchando peticiones en sus endpoints (recursos) definidos en la API (Application Programming Interface), que expone esos recursos a la web. Así mismo es el encargado principal del proceso de los datos y de generar la información principal de un sistema con base en las reglas de negocio del problema que se quiere solucionar. La implementación de los procesos decisivos y más importantes de un sistema se realiza en el backend. Por ejemplo, las transacciones seguras de un proceso de pago en un e-commerce75 , deben realizarse del lado del servidor, normalmente estos procesos manejan tokens de acceso y claves, que si se filtran al frontend pueden implicar un riesgo de seguridad. Las tecnologías de backend que se usan son las siguientes:
+- **Ejecución del lado del cliente**. Normalmente se refiere al explorador web (chrome, firefox, edge, safari), el cual puede interpretar las siguientes tecnologías:
 
-Es un motor de ejecución de código Javascript del lado del servidor, esto quiere decir que permite programar sistemas con el mismo tipo de código con el que se programa el frontend, disminuyendo la curva de aprendizaje y haciendo el desarrollo más ágil. NodeJS extiende la funcionalidad de Javascript proveyendo mecanismos de acceso que no se tienen en el frontend, como el acceso al sistema de archivos o a bases de datos.
+    - **HTML.** Es un esquema estático que define como se acomodan los elementos en una página web. Puede ser modificado usando javascript, volviendo cualquier aplicación web interactiva.
 
-Es un servidor web desarrollado en Javascript, que se integra como un módulo en NodeJS y que permite la definición de endpoints, rutas y middlewares 78 de tal manera que se pueda crear una API Rest rápidamente.
+    - **CSS.** Las hojas de estilo en cascada (Cascading Style Sheets) son un esquema utilizado para describir la presentación de los elementos en una página web, si HTML define como se acomodarán estos elementos dentro de la aplicación, CSS define cuál será su estilo y presentación al usuario final. 
+    
+    - **JS.** Es un lenguaje de programación ligero, interpretado, basado en prototipos y orientado a objetos. Provee los métodos necesarios que hacen la web interactiva.
 
-Es un ORM (Object-Relational Mapping) que permite el mapeo de modelos de un esquema de MongoDB. Por ejemplo, un modelo de una entidad usuario, que es una representación esquematizada de todos los datos almacenados en MongoDB de un documento de un usuario. Así mismo da acceso a la base de datos y maneja las conexiones a la misma.
+- **Ejecución del lado del servidor.** Proceso que escucha peticiones en sus endpoints (recursos) definidos en la API (Application Programming Interface), que expone esos recursos a la web. 
 
-Es la base de datos en sí, donde se almacena toda la información del sistema en forma de un esquema de documentos. 1969: El Departamento de Defensa de los Estados Unidos desarrolla una red que conectaba varias universidades californianas, llamada ARPANET.
+    Así mismo es el encargado principal del proceso de los datos y de generar la información de un sistema con base en las reglas de negocio del problema que se quiere solucionar. 
+
+    La implementación de los procesos decisivos y más importantes de un sistema se realiza en el backend. 
+
+    Por ejemplo, las transacciones seguras de un proceso de pago en un e-commerce, deben realizarse del lado del servidor, normalmente estos procesos manejan tokens de acceso y claves, que si se filtran al frontend pueden implicar un riesgo de seguridad.
+
+    Las tecnologías de backend que se usan son las siguientes:
+
+    - **NodeJS.** Es un motor de ejecución de código Javascript del lado del servidor, esto quiere decir que permite programar sistemas con el mismo tipo de código con el que se programa el frontend, disminuyendo la curva de aprendizaje y haciendo el desarrollo más ágil. NodeJS extiende la funcionalidad de Javascript proveyendo mecanismos de acceso que no se tienen en el frontend, como el acceso al sistema de archivos o a bases de datos.
+
+    - **Express.** Es un servidor web desarrollado en Javascript, que se integra como un módulo en NodeJS y que permite la definición de endpoints, rutas y middlewares de tal manera que se pueda crear una API Rest rápidamente.
+
+    - **Mongoose.** Es un ORM (Object-Relational Mapping) que permite el mapeo de modelos de un esquema de MongoDB. Por ejemplo, un modelo de una entidad usuario, que es una representación esquematizada de todos los datos almacenados en MongoDB de un documento de un usuario. Así mismo da acceso a la base de datos y maneja las conexiones a la misma.
+
+    - **MongoDB.** Es la base de datos en sí, donde se almacena toda la información del sistema en forma de un esquema de documentos. 1969: El Departamento de Defensa de los Estados Unidos desarrolla una red que conectaba varias universidades californianas, llamada ARPANET.
 
 # Breve Historia de la World Wide Web
 
