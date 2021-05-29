@@ -280,7 +280,7 @@ Existen dos áreas separadas:
 
     - **Mongoose.** Es un ORM (Object-Relational Mapping) que permite el mapeo de modelos de un esquema de MongoDB. Por ejemplo, un modelo de una entidad usuario, que es una representación esquematizada de todos los datos almacenados en MongoDB de un documento de un usuario. Así mismo da acceso a la base de datos y maneja las conexiones a la misma.
 
-    - **MongoDB.** Es la base de datos en sí, donde se almacena toda la información del sistema en forma de un esquema de documentos. 1969: El Departamento de Defensa de los Estados Unidos desarrolla una red que conectaba varias universidades californianas, llamada ARPANET.
+    - **MongoDB.** Es la base de datos en sí, donde se almacena toda la información del sistema en forma de un esquema de documentos. 
 
 # Breve Historia de la World Wide Web
 
