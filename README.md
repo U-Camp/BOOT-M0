@@ -263,6 +263,8 @@ Existen dos áreas separadas:
     - **CSS.** Las hojas de estilo en cascada (Cascading Style Sheets) son un esquema utilizado para describir la presentación de los elementos en una página web, si HTML define como se acomodarán estos elementos dentro de la aplicación, CSS define cuál será su estilo y presentación al usuario final. 
     
     - **JS.** Es un lenguaje de programación ligero, interpretado, basado en prototipos y orientado a objetos. Provee los métodos necesarios que hacen la web interactiva.
+    
+    - **ReactJS.** ReactJS es una librería JavaScript de código abierto enfocada a la visualización. Esta tecnología nos permite el desarrollo de interfaces de usuario de forma sencilla, esto es posible mediante componentes interactivos y reutilizables. 
 
 - **Ejecución del lado del servidor.** Proceso que escucha peticiones en sus endpoints (recursos) definidos en la API (Application Programming Interface), que expone esos recursos a la web. 
 
