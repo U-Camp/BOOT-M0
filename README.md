@@ -324,7 +324,7 @@ Existen dos áreas separadas:
 
 **Actualidad - Futuro:** W3C genera estándares para la web semántica, lo que permite y permitirá que las máquinas se entiendan entre sí, de tal manera que los metadatos describan una aplicación web, por lo que un cliente automatizado podrá consumir otro cliente, entendiéndolo desde su contexto.
 
->#### A continuación, te invito a consultar y descargar dos infografías que resumen un poco la historia de la WWW.
+>#### A continuación, te invito a consultar y descargar dos infografías que resumen un poco la historia de la WWW
 
 Puedes descargar la primera parte de la infografía en el siguiente enlace [Infografía WWW 1era parte](https://github.com/U-Camp/BOOT-M0/blob/main/infografias/Semana_0_Infograf%C3%ADa_2_C.pdf)
 
